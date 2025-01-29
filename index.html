@@ -1028,7 +1028,7 @@ The following algorithm defines the process for witnessing an event log entry.
 A witness for an event log entry does so by digitally signing a cryptographic
 hash instead of viewing the data directly. This provides privacy for the
 author and eliminates liability for the witness. Effectively, the signed
-value states: "I witness cryptographic has X at point in time Y.", which
+value states: "I witness cryptographic hash X at point in time Y.", which
 establishes that the data existed at that particular point in time. Witness
 services are expected to be external to the system requesting the witnessing,
 such as through an HTTP endpoint that accepts a cryptographic hash as input.
